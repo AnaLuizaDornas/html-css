@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Media Query</title>
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+
+  <link rel="stylesheet" href="estilos/style.css">
+</head>
+<body>
+  <header>
+    <h1>Meu site</h1>
+    <i id="burguer" class="material-symbols-outlined" onclick="clickMenu()">menu</i>
+    <menu id="itens">
+      <ul>
+        <li> <a href="#">Opção 1</a></li>
+        <li> <a href="#">Opção 2</a></li>
+        <li> <a href="#">Opção 3</a></li>
+        <li> <a href="#">Opção 4</a></li>
+        <li> <a href="#">Opção 5</a></li>
+      </ul>
+    </menu>
+  </header>
+  <main>
+    <article>
+      <h2>Testando Media Query</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia suscipit praesentium necessitatibus nam eveniet veniam quaerat nisi unde consectetur explicabo! Ducimus, quidem earum amet corrupti officiis nulla culpa quibusdam voluptate. Lorem ipsum dolor sit, amet consectetur adipisicing elit. In, fugit vitae! Non recusandae explicabo totam nesciunt iusto, amet voluptatum quisquam similique possimus error architecto doloribus, quibusdam, animi veniam. Aliquid, aut.</p>
+
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium obcaecati tenetur reprehenderit debitis, magni sapiente est placeat culpa rerum dignissimos quis facere recusandae in voluptatibus assumenda perferendis adipisci officiis doloribus? Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, illo recusandae officiis deleniti repellat deserunt, tempora soluta distinctio eaque aliquid tenetur vitae fugiat ducimus facilis ad architecto libero minima. Deserunt.</p>
+
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus dignissimos ad ipsum veniam maiores tempore obcaecati, praesentium perspiciatis quibusdam dolorem illo, iste nam tempora sunt aut similique. Alias, quo commodi! Lorem ipsum dolor sit, amet consectetur adipisicing elit. At suscipit fuga ex laborum autem vel, molestiae a accusamus temporibus saepe, eius animi eveniet quo! Praesentium, consectetur. Architecto placeat provident beatae?</p>
+
+    </article>
+  </main>
+  <script>
+    function clickMenu() {
+      if (itens.style.display == "block"){
+        itens.style.display = 'none'
+      } else {
+        itens.style.display = 'block'
+      }
+
+    }
+  </script>
+</body>
+</html>
